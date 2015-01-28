@@ -1,0 +1,67 @@
+{
+	"ApexClass" : [
+		{
+			"name" 			: "Box Apex Class",
+			"file_name"		: "BoxApexClass.cls",
+			"description" 	: "The default Box template for an Apex Class",
+			"author" 		: "Kyle Vermeer",
+			"params" 		: [
+		        {
+		            "name"          : "api_name",
+		            "description"   : "Apex Class API Name",
+		            "default" 		: "MyApexClass"
+		        }
+		   ]
+		}
+	],
+	"ApexComponent" : [
+		{
+			"name" 			: "Box VF Component",
+			"file_name"		: "BoxComponent.component",
+			"description" 	: "The default Box template for a VF Page",
+			"author" 		: "MavensMate",
+			"params" 		: [
+				{
+					"name"          : "api_name",
+					"description"   : "Visualforce Component API Name",
+					"default" 		: "MyVisualforceComponent"
+				}
+			]
+		}
+	],
+	"ApexPage" : [
+		{
+			"name" 			: "Box VF Page",
+			"file_name"		: "BoxPage.page",
+			"description" 	: "The default Box template for a VisualForce Page",
+			"author" 		: "MavensMate",
+			"params" 		: [
+				{
+					"name"          : "api_name",
+					"description"   : "Visualforce Page API Name",
+					"default" 		: "MyVisualforcePageName"
+				}
+			]
+		}
+	],
+	"ApexTrigger" : [
+		{
+			"name" 			: "Box Apex Trigger",
+			"file_name"		: "BoxTrigger.trigger",
+			"description" 	: "The default Box template for triggers",
+			"author" 		: "Kyle Vermeer",
+			"params" 		: [
+				{
+					"name"          : "api_name",
+					"description"   : "Apex Trigger API Name",
+					"default" 		: "MyCoolTrigger"
+				},
+				{
+					"name"          : "object_name",
+					"description"   : "Object API Name",
+					"default" 		: "ObjectAPIName"
+				}
+			]
+		}
+	]
+}
